@@ -1,0 +1,68 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+}
+
+.content .form {
+    width: 200px;
+    padding: 8px;
+}
+
+.content .form input[type="submit"], .btn-view {
+    background-color: white;
+    color: #00b0eb;
+    padding: 10px 15px;
+    border: 1px solid #00b0eb;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+}
+
+.content .form input[type="submit"]:hover {
+    background-color: #00b0eb;
+    color: white;
+}
+
+.content .form textarea {
+    width: 100%;
+}
+
+.content .iframe {
+    width: 100%;
+    margin-left: 15px;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,.2);
+}
+
+
+header {
+    background-color: #00b0eb;
+    padding: 10px 20px;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,.2);
+    position: sticky;
+    top: 0;
+    margin-bottom: 20px;
+}
+
+.iframe {
+    background: none;
+}
+.iframe.load {
+    background: url('/assets/img/loading.gif') center center no-repeat;
+}
+.iframe .frame-codi {
+    border: none;
+    height: calc(100vh - 90px);
+    width: 100%;
+}
